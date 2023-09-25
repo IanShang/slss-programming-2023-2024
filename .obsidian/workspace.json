@@ -1,52 +1,35 @@
 {
   "main": {
-    "id": "0a2ed5ee75297cb6",
+    "id": "a50792560dd861e3",
     "type": "split",
     "children": [
       {
-        "id": "b8c38c313f9933ae",
+        "id": "b1fac308f96e4345",
         "type": "tabs",
         "children": [
           {
-            "id": "f426e0f99e0e7b2a",
+            "id": "b7b995c457fe8517",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markdown (Re)Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce4e702a585aa195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Natural Language Processing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f3794a0a763a9541",
+    "id": "623b64a701176301",
     "type": "split",
     "children": [
       {
-        "id": "1acecadf9e717e14",
+        "id": "8666b96929b8e306",
         "type": "tabs",
         "children": [
           {
-            "id": "65f6efe6170e23e5",
+            "id": "d64efdb92f3b4798",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +39,7 @@
             }
           },
           {
-            "id": "14fdfa21016b91f3",
+            "id": "03ee630dbe7184db",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,35 +54,33 @@
             }
           },
           {
-            "id": "cfe0339d823dd710",
+            "id": "68cf25a845a37bac",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "e32f8f2690e74c45",
+    "id": "b2ba3690574943d0",
     "type": "split",
     "children": [
       {
-        "id": "833c7a0613392fe6",
+        "id": "89130421f61133e8",
         "type": "tabs",
         "children": [
           {
-            "id": "c758c7a0693c7221",
+            "id": "d8cd5abc291c3bb3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Natural Language Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,19 +92,18 @@
             }
           },
           {
-            "id": "2225bf357073c1dc",
+            "id": "24a8eef41ce5eacc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Natural Language Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "80a3abed9c5302ba",
+            "id": "2eb411b934cbbcbe",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,31 +114,19 @@
             }
           },
           {
-            "id": "4fc76fb208aa0b28",
+            "id": "7fd4d07891da7a16",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - Natural Language Processing.md"
-              }
-            }
-          },
-          {
-            "id": "fa9cc660361de591",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,14 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce4e702a585aa195",
-  "lastOpenFiles": [
-    "essex.png",
-    "1 - Natural Language Processing.md",
-    "Markdown (Re)Introduction.md",
-    "().md",
-    "Assets/essex.png",
-    "Assets/fish.jpg",
-    "Assets"
-  ]
+  "active": "b7b995c457fe8517",
+  "lastOpenFiles": []
 }
