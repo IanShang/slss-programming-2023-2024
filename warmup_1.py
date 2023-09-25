@@ -1,2 +1,2 @@
 #code golf gameplay
-print("AUghghghghghghghghg - robob")
+print("robob has escaped the matrix and now instead of beep boop, it says \"AuGhghghhhgh\"")
