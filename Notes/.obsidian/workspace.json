@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Natural Language Processing.md"
+                "file": "Design.md"
               }
             }
           },
@@ -172,8 +171,9 @@
   },
   "active": "ce4e702a585aa195",
   "lastOpenFiles": [
-    "essex.png",
     "1 - Natural Language Processing.md",
+    "Design.md",
+    "essex.png",
     "Markdown (Re)Introduction.md",
     "().md",
     "Assets/essex.png",
