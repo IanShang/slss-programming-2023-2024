@@ -13,5 +13,5 @@ if food == "beans":
     tea = input("do u have tea on a daily basis")
     if tea == "yes":
         print("ei mate, welcome to bri'ain 🤝🤝🤝, a beautiful day outside innit")
-    else: 
-else: 
+    else: print("🤨🤨🤨")
+else: print("🤨🤨🤨")
