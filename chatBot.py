@@ -1,4 +1,4 @@
-# chatgpt
+# chatgpt but european cold war edition
 # quandale dingle
 # 2000 B.C.
 
