@@ -1,5 +1,5 @@
 # je mange les nourriture
-# niece and nephews (Real)
+# niece and nephews ian shanks (Real)
 # yesterday, dec 7 1941, a date which will live in infamy - the united states of america was suddenly and deliberately attacked by the naval and air forces of the mpire of japan - F.D.R. why do i remember this
 
 # c'est une robob qui demander les personnes quest'que ce votre nourriture preferre
@@ -12,6 +12,7 @@ fr_food = ["baguette"]
 ru_food = ["vodka"]
 gb_food = ["tea", "biscuits", "beans", "toast"]
 
+print("HELLO, IM EMU OTORI")
 fav_food = input("quest'que c'est ton nourriture preferre: ")
 
 cn_count = 0
