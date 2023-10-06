@@ -16,7 +16,7 @@
 # le module de temps
 # nous pouvons utilise les temp au arrete notre code
 # import time
-# time.sleep(1) il dormir pour une second
+# time.sleep(1) il dors pour une second
 
 import random
 ### import time #aaa ur being interrogated ur not geting time interval pauses 
@@ -26,9 +26,9 @@ ok = ["ei mate, welcome to bri'ain 🤝🤝🤝, a beautiful day outside innit",
 print("i'll tell you what you fat little- 🇬🇧🇬🇧🇬🇧, ur being questioned for suspicions of a Soviet spy 🇷🇺🇷🇺🇷🇺")
 name = input("what is ur name: ")
 food = input("ok " + name + ", what food do u eat on a daily basis: ")
-if food == "beans":
+if food.lower() == "beans" or "biscuits":
     tea = input("do u have tea on a daily basis: ")
-    if tea == "yes":
+    if tea.lower() == "yes":
         print(ok[random.randint(0, len(ok) - 1)])
     else: print(sus[random.randint(0, len(sus) - 1)])
 else: print(sus[random.randint(0, len(sus) - 1)])
