@@ -24,7 +24,7 @@ while t > 0:
     if t >= 1:
         print(t)
         t -= 1
-print("tres bon anniversaire")
+print("tres bon anniversaire desune")
 
 # master ooooooogway coding moment
 for i in range(10, 0, -1):
