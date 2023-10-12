@@ -26,7 +26,7 @@ while t > 0:
         t -= 1
 print("tres bon anniversaire desune")
 
-# master ooooooogway coding moment
+# master oooooooogway coding moment
 for i in range(10, 0, -1):
     print(i)
 print("tres bonne anniversaire")
