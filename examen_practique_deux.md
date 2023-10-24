@@ -20,4 +20,4 @@ Ionic(James) Bond
 16. a
 17. b
 18. a
-19. e #c
+19. e
