@@ -17,3 +17,7 @@ print(9//2)
 
 # mod, returner remainder 🤔
 print(9%2)
+
+# tu peux change le type de data avec f(x) special
+numero = 1
+print(str(numero))
