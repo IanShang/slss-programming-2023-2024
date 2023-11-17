@@ -25,21 +25,34 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # Problem 1:
 # Open the file and print the contents of the second line in the file.
 
+    print(f.readline())
 
 # Problem 2:
 # Good! Now that you've done that, open the file, and print out every line of data.
 
+    # for line in f:
+    #     print(f.readline().strip())
 
 # Problem 3:
 # If you've made it this far, well done. Next task:
 # Convert that line of data into a list.
 
+    # for line in f:
+    #     activite = line.strip().split(",")
+    #     print(activite)
 
 # Problem 4:
 # Give yourself a pat on the back.
 # See if you can count how many people like "Chicken Adobo" as their
 # favourite food.
 
+    # aime_chicken_adobo = 0
+    # for line in f:
+    #     activite = line.strip().split(",")
+    #     for info in activite:
+    #         if info == "Chicken Adobo":
+    #             aime_chicken_adobo +=1
+    # print("il y a " + str(aime_chicken_adobo) + " personne qui aimes chicken adobo")
 
 # Problem 5:
 # You should have gotten four people for the last problem. If not,
@@ -47,9 +60,24 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # Else, you can move on to this part, which is, find out how many
 # people have the first letter of their first name start with "A".
 
+    # nom_commence_avec_a = 0
+    # for line in f:
+    #     activite = line.strip().split(",")
+    #     #  si le character premiere est a
+    #     if activite[0][0] == "A":
+    #         nom_commence_avec_a +=1
+    # print("il y a " + str(nom_commence_avec_a) + " qui a un nom qui commence avec un a")
+
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
 
+    nom_commence_avec_a = 0
+    for line in f:
+        activite = line.strip().split(",")
+        #  si la place est guangzhou #ching cheng han ji
+        if activite[4] == "Guangzhou":
+            nom_commence_avec_a +=1
+    print("il y a " + str(nom_commence_avec_a) + " personnes qui habiter dans Guangzhou")
 
 # Problem 7:
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
@@ -57,6 +85,6 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # You can either do this with the string or with the int.
 
 
-# Problem 8*:
+# Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
