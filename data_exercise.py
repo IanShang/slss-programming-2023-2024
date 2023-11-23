@@ -71,20 +71,34 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
 
-    nom_commence_avec_a = 0
-    for line in f:
-        activite = line.strip().split(",")
-        #  si la place est guangzhou #ching cheng han ji
-        if activite[4] == "Guangzhou":
-            nom_commence_avec_a +=1
-    print("il y a " + str(nom_commence_avec_a) + " personnes qui habiter dans Guangzhou")
+    # nom_commence_avec_a = 0
+    # for line in f:
+    #     activite = line.strip().split(",")
+    #     #  si la place est guangzhou #ching cheng han ji
+    #     if activite[4] == "Guangzhou":
+    #         nom_commence_avec_a +=1
+    # print("il y a " + str(nom_commence_avec_a) + " personnes qui habiter dans Guangzhou")
 
 # Problem 7:
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
 
+    # carde_divisible_by_2 = 0
+    # for line in f:
+    #     activite = line.strip().split(",")
+    #     if int(activite[3]) % 2 == 0:
+    #         carde_divisible_by_2 +=1
+    # print("j'ai le credit card numero de " + str(carde_divisible_by_2) + " personnes")
 
 # Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+
+    carde_divisible_by_2 = 0
+    for line in f:
+        activite = line.strip().split(",")
+        for nourriture in activite:
+            if int(activite[3]) % 2 == 0:
+                carde_divisible_by_2 +=1
+    print("j'ai le credit card numero de " + str(carde_divisible_by_2) + " personnes")
