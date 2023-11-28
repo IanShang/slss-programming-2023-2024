@@ -26,7 +26,7 @@ def reflection_on_the_y_axis(l: int) -> str:
     pyramid = ""
     for n in range(1, l+1):
         if (n<l):
-            pyramid += "*" * n + "\n"
-        else: pyramid += "*" * n
+            pyramid += " " * (l-n) + "*" * n + "\n"
+        else: pyramid += " " * (l-n) + "*" * n
     return pyramid
 print(reflection_on_the_y_axis(6))
