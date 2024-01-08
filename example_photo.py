@@ -3,8 +3,8 @@ from PIL import Image
 
 def pixele_a_nom(pixele: tuple) -> str:
     rouge, vert, bleu = pixele
-    if rouge < 25 and bleu < 25 and vert > 230:
-        return "green"
+    if rouge < 150 and bleu < 150 and vert > 150:
+        return "vert"
 
 with Image.open("./images/kid-green.jpg") as photo:
     bg_im = Image.open("./images/beach.jpg")
@@ -33,9 +33,9 @@ with Image.open("./images/kid-green.jpg") as photo:
         for x in range(photo_dx):
             # photocopier les information de cette pixele
             pixele = photo.getpixel((x, y))
-            
             if pixele_a_nom(pixele)  == "vert":
                 bg_pixel = bg_im.getpixel((x, y))
                 photo.putpixel((x, y), bg_pixel)  
+
     bg_im.close()
     photo.save("./images/output.jpg")
