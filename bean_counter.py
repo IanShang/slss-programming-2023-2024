@@ -11,6 +11,7 @@ import aide_de_color
 
 PIXELE_ROUGE = [255, 0, 0]
 PIXELE_VERT = [0, 255, 0]
+PIXELE_BLEU = [0, 0, 255]
 
 jelly_bean_img = Image.open("./Images/Jelly Beans.jpg")
 
@@ -23,7 +24,7 @@ for y in range(jelly_bean_img.height):
         pixele_maintenant = jelly_bean_img.getpixel((x, y))
 
         # If this pixel is red
-        if aide_de_color.pixel_to_name(pixele_maintenant) == "red":
+        if aide_de_color.pixel_to_name(pixele_maintenant) == "rouge":
             # Store its location somewhere
             pixeles_rouge.append((x, y))
 
