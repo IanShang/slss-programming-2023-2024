@@ -118,6 +118,9 @@ def dessine_arbre_beau(level: int, l: int): #c'est une belle arbre, n'est pas bi
         el_gato.stamp()
         el_gato.color(color_originale[0])
 
+color = {}
+color["red"] = (255, 0, 0)
+
 el_gato.setheading(90)
 dessine_arbre_beau(5, 75)
 
